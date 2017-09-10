@@ -1,5 +1,3 @@
-import {V} from 'working'
-
 const dummy = {}
 
 function send(root, message, p1, p2, p3, p4, p5, p6, p7, p8) {
@@ -28,16 +26,6 @@ function sendUpwards(root, p1, p2, p3, p4, p5, p6, p7, p8) {
                 root.getParent() :
                 null;
     } while (root != null);
-}
-
-pc.Entity.prototype.getLossyScale = function () {
-    let scale = V(this.getLocalScale())
-    let scan = this.parent
-    while (scan) {
-        scale.mul(scan.getLocalScale())
-        scan = scan.parent
-    }
-    return scale
 }
 
 function broadcast(root, p1, p2, p3, p4, p5, p6, p7, p8) {

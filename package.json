@@ -1,0 +1,22 @@
+{
+  "name": "playcanvas-sendmessage",
+  "version": "1.0.0",
+  "description": "PlayCanvas extension to allow hierarchical broadcast of messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whydoidoit/sendmessage.git"
+  },
+  "keywords": [
+    "PlayCanvas"
+  ],
+  "author": "Mike Talbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whydoidoit/sendmessage/issues"
+  },
+  "homepage": "https://github.com/whydoidoit/sendmessage#readme"
+}
